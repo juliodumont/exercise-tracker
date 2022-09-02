@@ -5,10 +5,7 @@ const exerciseSchema = mongoose.Schema(
     username: String,
     description: String,
     duration: Number,
-    date: {
-      type: Date,
-      default: new Date(),
-    },
+    date: String,
   },
   {
     versionKey: false,
